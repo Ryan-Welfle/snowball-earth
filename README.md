@@ -9,9 +9,13 @@ The decreasing planetary temperatures (marked along the graph's y-axis) are a fu
 ## What the program does, in simple terms
 
 | Mean Planetary Temperature    | Planetary Albedo  |
-|:------------------------------|------------------:|
+|:------------------------------|:------------------|
 | 265                           | 0.15              |
 | 255                           | 0.25              |
+| 245                           | 0.35              |
+| 235                           | 0.45              |
+| 225                           | 0.55              |
+| 215                           | 0.65              |
 
 After these values are inputted, they work in conjunction with a few constants to create:
 
