@@ -52,6 +52,8 @@ plt.plot(x, y)                                                                  
 
 plt.suptitle('Snowball Earth Simulator', weight='bold')                                             #title for plot
 plt.title(f'Temperature over Iterations for L-Values {LRange[0]}-{LRange[1]} W/m2', fontsize=10)    #subtitle for plot
+plt.axhline(y=223.15, color='r', linestyle='--')
+plt.annotate('Average "Snowball Earth" Temperature Below Here',(5.0,224.15), color='r')
 plt.xlabel('Iterations')                                                                            #title for x-axis
 plt.ylabel('Temperature (in ˚K)')                                                                   #title for y-axis
 
