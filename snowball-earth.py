@@ -39,7 +39,7 @@ while L > LRange[0] - 1:                                            #setting up 
         snowball_low_temp = min(snowball_finder)
     x.append(numpy.nan)                         #adding a non-number at the end of each L iteration cycle in x-list to have clear break between iteration slopes
     y.append(numpy.nan)                         #adding a non-number at the end of each L iteration cycle in y-list to have clear break between iteration slopes
-    L = L - 1                                   #changing L-value, so that new iterations can be done for the next L-value
+    L = L - 10                                   #changing L-value, so that new iterations can be done for the next L-value
 
 
 print('\nSNOWBALL EARTH SIMULATOR\n')
